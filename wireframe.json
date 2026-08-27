@@ -1,0 +1,287 @@
+{
+  "version": 4,
+  "app_title": "Finance Holdings Dashboard Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-364d0068",
+      "name": "Account Access",
+      "route": "/login",
+      "item_ref": {
+        "index": 1,
+        "text": "Build responsive email/password registration and sign-in pages with password hashing, validation, secure sessions, clear error/loading states, sign-out, and role-aware routing into the user or administrator experience."
+      },
+      "blocks": [
+        {
+          "id": "auth-intro",
+          "type": "hero",
+          "label": "Finance workspace introduction",
+          "hint": "Compact ledger-inspired product statement and security reassurance",
+          "x": 0,
+          "y": 0,
+          "w": 5,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Build responsive email/password registration and sign-in pages with password hashing, validation, secure sessions, clear error/loading states, sign-out, and role-aware routing into the user or administrator experience."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "auth-form",
+          "type": "form",
+          "label": "Sign in or create account",
+          "hint": "Tabbed email/password forms with validation, loading, and error feedback",
+          "x": 5,
+          "y": 0,
+          "w": 7,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Build responsive email/password registration and sign-in pages with password hashing, validation, secure sessions, clear error/loading states, sign-out, and role-aware routing into the user or administrator experience."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-481f15d3",
+      "name": "Portfolio Dashboard",
+      "route": "/dashboard",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+      },
+      "blocks": [
+        {
+          "id": "user-nav",
+          "type": "nav",
+          "label": "User navigation",
+          "hint": "Portfolio dashboard, holdings, account, and sign out",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "portfolio-stats",
+          "type": "kpi",
+          "label": "Portfolio summary",
+          "hint": "Total value, invested cost, gain or loss, and holding count",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "performance-chart",
+          "type": "chart_line",
+          "label": "Portfolio performance",
+          "hint": "Visible time-series line chart with clear axes and gain/loss context",
+          "x": 0,
+          "y": 3,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "allocation-chart",
+          "type": "chart_pie",
+          "label": "Asset allocation",
+          "hint": "Allocation by asset type with accessible legend",
+          "x": 8,
+          "y": 3,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "holding-filters",
+          "type": "form",
+          "label": "Holding filters and actions",
+          "hint": "Search, asset-type filter, sorting, and add-holding action",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "holdings-table",
+          "type": "table",
+          "label": "My holdings",
+          "hint": "Responsive holdings table with values, returns, and edit/delete actions",
+          "x": 0,
+          "y": 8,
+          "w": 12,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "holding-form",
+          "type": "form",
+          "label": "Holding editor",
+          "hint": "Modal or drawer form for validated create and edit operations",
+          "x": 0,
+          "y": 13,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the user finance dashboard where each signed-in user can view portfolio totals and allocation/performance charts, search and filter their own holdings, and create, edit, or delete multiple holdings with validated quantity, purchase price, current price, asset type, symbol, and purchase date inputs."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-661733fc",
+      "name": "Administrator Dashboard",
+      "route": "/admin",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+      },
+      "blocks": [
+        {
+          "id": "admin-nav",
+          "type": "nav",
+          "label": "Administrator navigation",
+          "hint": "Admin overview, users, all holdings, personal dashboard, and sign out",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-stats",
+          "type": "kpi",
+          "label": "Platform finance summary",
+          "hint": "Users, portfolios, holdings, total cost, and total market value",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-values-chart",
+          "type": "chart_bar",
+          "label": "Portfolio values by user",
+          "hint": "Visible comparison bars for user portfolio market values",
+          "x": 0,
+          "y": 3,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-allocation-chart",
+          "type": "chart_pie",
+          "label": "Platform allocation",
+          "hint": "Aggregate allocation across asset types",
+          "x": 7,
+          "y": 3,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-filters",
+          "type": "form",
+          "label": "Administration filters",
+          "hint": "User search, role filter, asset filter, and sort controls",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "users-table",
+          "type": "table",
+          "label": "User management",
+          "hint": "Users, roles, portfolio totals, role actions, and safeguards",
+          "x": 0,
+          "y": 8,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-holdings-table",
+          "type": "table",
+          "label": "All holdings",
+          "hint": "Cross-account holdings inspection with edit and delete actions",
+          "x": 0,
+          "y": 12,
+          "w": 12,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the administrator dashboard for viewing user and portfolio summaries, searching users, inspecting holdings across all accounts, editing or deleting holdings, changing standard/admin roles with safeguards, and monitoring aggregate assets and portfolio values without exposing passwords."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
